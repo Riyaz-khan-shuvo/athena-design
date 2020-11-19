@@ -14,7 +14,7 @@ const SubscriptionCard = ({ plan }) => {
         support2,
     } = plan;
     return (
-        <div className="  col-xl-3  col-lg-3 col-md-4 col-sm-12 col-12 text-center">
+        <div className="  col-xl-3  col-lg-3 col-md-4 col-sm-12 col-12 text-center mb-4">
             <div className="service-card">
                 <h2>${price}</h2>
                 <small>{type}</small>

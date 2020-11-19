@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Footer from "../Footer/Footer/Footer";
 import SubscriptionCard from "../SubscriptionCard/SubscriptionCard";
 import "./ChooseTeam.css";
 
@@ -56,6 +57,7 @@ const ChooseTeam = () => {
                     ))}
                 </div>
             </div>
+            <Footer></Footer>
         </section>
     );
 };
