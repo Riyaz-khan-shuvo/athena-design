@@ -12,9 +12,9 @@ const Footer = () => {
         <footer>
             <FooterForm></FooterForm>
             <div className="row main-footer">
-                <div className="offset-xl-2  col-xl-2 col-md-2 d-flex flex-column align-items-center">
-                    <img className="img-fluid w-50 mb-4" src={logo} alt="" />
-                    <div className="social-icon">
+                <div className="offset-xl-2  col-xl-2 offset-lg-2 col-lg-2  col-md-3 col-sm-12 col-12 d-flex flex-column align-items-center mb-4">
+                    <img className="img-fluid w-50 mb-4 " src={logo} alt="" />
+                    <div className="social-icon d-flex">
                         <img src={facebook} alt="" className="img-fluid" />
                         <img src={twitter} alt="" className="img-fluid" />
                         <img src={linkedIn} alt="" className="img-fluid" />
@@ -22,14 +22,14 @@ const Footer = () => {
                         <img src={be} alt="" className="img-fluid" />
                     </div>
                 </div>
-                <div className="offset-xl-2 col-xl-2 col-md-2">
+                <div className="offset-xl-2 col-xl-2 offset-lg-2 col-12 col-lg-2  offset-md-1 col-md-2 col-sm-12 my-3">
                     <ul>
                         <li>Features</li>
                         <li>Enterprise</li>
                         <li>pricing</li>
                     </ul>
                 </div>
-                <div className="col-md-2 col-xl-2">
+                <div className="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12 mb-3">
                     <ul>
                         <li>Blog</li>
                         <li>Help Center</li>
@@ -37,7 +37,7 @@ const Footer = () => {
                         <li>Status</li>
                     </ul>
                 </div>
-                <div className="col-md-2 col-xl-2">
+                <div className="col-xl-2 col-lg-2 col-md-3 col-sm-12 col-12 mb-3">
                     <ul>
                         <li>About Us</li>
                         <li>Terms of Services</li>

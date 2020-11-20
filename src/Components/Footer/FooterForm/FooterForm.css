@@ -24,3 +24,9 @@
         rgba(6, 171, 238, 1)
     );
 }
+
+@media screen and (max-width: 425px) {
+    .input-form div {
+        width: 100%;
+    }
+}
