@@ -1,9 +1,19 @@
-.left{
-   float: left;
+.happy i{
+  font-size: 79px;
+  color: #707070;
 }
-
-.right{
-  float: right;
-  padding-top: 2px;
-  padding-left:5px;
+.achieve{
+  background: #ddd;
+  border-radius:  0 35px;
+  padding: 15px;
+  margin-bottom: 55px;
+}
+.achieve:hover{
+    color: #fff;
+    background: linear-gradient( to right, rgba(28, 216, 186, 1), rgba(6, 171, 238, 1));
+}
+@media(max-width:576px){
+  .achieve-area{
+    margin-left: 55px;
+  }
 }

@@ -1,8 +1,8 @@
-.right{
+.right {
   padding-top: 120px;
   padding-left: 60px;
-
 }
+
 .bg-image {
   background-color: #fafffd;
   padding: 0 40px;
@@ -12,6 +12,7 @@
   padding-bottom: 30px;
   height: auto;
 }
+
 .bg-image::before {
   content: "";
   position: absolute;
@@ -19,15 +20,14 @@
   height: 100%;
   right: -35%;
   top: 0;
-  background-image: url("../../images//bgimg1.png");
+  background-image: url("https://i.postimg.cc/28yy41GM/bannar.png");
   background-size: cover;
   background-repeat: no-repeat;
   transform: rotate(270deg);
 }
 
-
-.btn{
-   border-radius: 40px 0px;
+.btn {
+  border-radius: 40px 0px;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -35,6 +35,6 @@
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  background-color:#0ebadc;
+  background-color: #0ebadc;
   color: white;
 }

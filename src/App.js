@@ -3,15 +3,14 @@ import {
     BrowserRouter as Router,
     Switch,
     Route,
-    Link
   } from "react-router-dom";
 import "./App.css";
+import Achievement from './Components/Achievement/Achievement';
 import Banner from './Components/Banner/Banner';
 import ChooseTeam from "./Components/ChooseTeam/ChooseTeam";
-import Footer from "./Components/Footer/Footer/Footer";
 import Header from "./Components/Header/Header";
-  import Project from './Components/Project/Project';
-import Achievement from './Components/Achievement/Achievement';
+import Project from './Components/Project/Project';
+import Service from './Components/Services/Service';
 
 function App() {
     return (
@@ -21,9 +20,12 @@ function App() {
                     <Route>
                         <Header></Header>
                         <Banner></Banner>
+                        <Service></Service>
+                        <Project></Project>
+                        <Achievement></Achievement>
                         <ChooseTeam></ChooseTeam>
-            <Project></Project>
-      <Achievement></Achievement>
+                        
+                        
                     </Route>
                     <Route>
                         
