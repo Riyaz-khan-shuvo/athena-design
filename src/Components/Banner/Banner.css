@@ -1,0 +1,28 @@
+.banner-area{
+    background: url('https://iili.io/Fl59Qj.th.png');
+    height:auto;
+    background-size:cover ;
+    background-position: right;
+    background-repeat:no-repeat;
+    padding: 25px 0;
+}
+.banner-area img{
+    width: 100%;
+}
+.left-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   text-align: justify;
+   font-family: "Yeseva One", cursive;
+   padding: 0 25px;
+}
+.left-content h3{
+    font-size: 49px;
+}
+.left-content p{
+    font-size: 21px;
+}
+.left-item{
+    padding: 0 25px;
+}
