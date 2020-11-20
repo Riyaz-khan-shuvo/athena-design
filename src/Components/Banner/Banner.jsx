@@ -13,6 +13,7 @@ const Banner = () => {
                             <p>
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum rem et adipisci, debitis doloremque repudiandae assumenda quia esse. Sed impedit in, voluptatem ut est obcaecati!
                             </p>
+                            <button id="price">See Pricing</button>
                         </div>
                     </div>
                     <div className="col-md-6 col-sm-12 col-12">

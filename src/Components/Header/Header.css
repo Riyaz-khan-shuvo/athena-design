@@ -33,7 +33,7 @@ ul li a {
     display: inline-block;
 }
 
-#contact {
+.contact {
     border-radius: 30px 0;
     font-size: 30px;
     border: none;
